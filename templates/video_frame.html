@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="static/style.css">
     <title>Document</title>
 </head>
-<body>
-    <iframe width="560" height="315" src="{{ link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <form method="POST">
-        <input type="text" name="search">
-        <button type="submit">Enter</button>
-      </form>
+<body style="background-image: linear-gradient(to right, green, black);"> 
+    <div><nav class="nav1bar">
+        <ul class=" main-nav">
+          <li><img class="imgsize" src="static/img/skip logo.png"></li>
+          <div class="push" style="margin-left: auto"><li></li></div>
+        </ul>
+      </nav></div>
+    <iframe style="margin-left: 110px" width="1060" height="600" src="{{ link }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>

@@ -11,14 +11,11 @@ def index():
 @app.route('/', methods=['POST'])
 def my_form_response():
     test = video_search()
-    response = request.form['search']
-    link = request.form['link']
-    response = request.form['search']
+    response = request.form['Search']
+    link = request.form['Copy link']
     time_stamp = test.algorithm(test.filtering_list(test.pass_json_for_getting_list()), response, test.load_model())
-    if time_stamp == None:
-        return render_template('oops.html')
     link = link +'?start=' + str(int(time_stamp) + 1)
-    return render_template('video_frame.html',link = link )
+    return render_template('video_frame.html', link = link )
 
 
 if __name__ == "__main__":

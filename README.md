@@ -2,7 +2,7 @@
 
 ## Team Py_ino 
 
-<img src="/home/ubuntu/Hackoff/Hackoff final/static/img/skip logo.png" width="350" title="SKIP">
+<img src="./static/img/skip logo.png" width="350" title="SKIP">
 
 ### Description 
 
@@ -19,7 +19,7 @@
 > In the website you have an option to enter the youtube video and the word you want to search for and it takes you to the exact point where the topic is being explained.
 
 ### The algorithm 
-<img src="/home/ubuntu/Hackoff/Hackoff final/static/img/algo.jpeg">
+<img src="./static/img/algo.jpeg">
 
 ### LICENCE 
 

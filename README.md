@@ -2,8 +2,6 @@
 
 ## Team Py_ino 
 
-<img src="./static/img/skip logo.png" width="350" title="SKIP">
-
 ### Description 
 
 ``` Online learning has undergon a huge paradime shift in the past few years.```
